@@ -1,7 +1,4 @@
 
-# The program bellow reads a csv file which contains a broad data of many respondents confessing about the programming languages they use. The program uses Matplotlib to plot a horizontal bar chart of the ten most popular programing languages out of the twentyeight mentioned in the data. 
-
-
 from collections import Counter
 
 import matplotlib.pyplot as plt
@@ -14,7 +11,7 @@ plt.style.use('seaborn')
 
 # Reading and sorting the data :
     
-data = pd.read_csv('/storage/emulated/0/Python Projects/Matplotlib/Matplotlib Bar Chart/Programing Languages Used By People.csv')
+data = pd.read_csv('Programing Languages Used By People.csv')
 
 responder_id = data['Responder_id']
 
