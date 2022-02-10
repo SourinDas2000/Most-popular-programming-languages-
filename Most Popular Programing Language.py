@@ -11,7 +11,7 @@ plt.style.use('seaborn')
 
 # Reading and sorting the data :
     
-data = pd.read_csv('Programing Languages Used By People.csv')
+data = pd.read_csv('Programming Languages Used By People.csv')
 
 responder_id = data['Responder_id']
 
